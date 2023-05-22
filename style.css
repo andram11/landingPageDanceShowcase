@@ -1,0 +1,53 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    background: url(./header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3em;
+    color: #F2E8E6;
+}
+
+
+/* hr {
+    margin: 20px auto;
+    color: #af9da4;
+    border: 3px solid #af9da4;
+    max-width: 5%;
+    opacity: 1;  
+} */
+
+.buffer{
+    height: 30rem;
+}
+
+/* property meant to make the button bigger*/
+.btn-xl{
+    padding: 1rem 2rem;
+}
+/*We update the existing Bootstrap button properties*/
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-light {
+    background-color: #af9da4;
+    border-color: #af9da4;
+    color: #0D090D;
+}
+
+.btn-light:hover{
+    background-color: #F2E8E6;
+    border-color: #F2E8E6;
+    color: #0D090D;
+    border-width: 4px;
+}
